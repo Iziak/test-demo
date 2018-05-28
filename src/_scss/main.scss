@@ -1,0 +1,61 @@
+@import '_color.scss';
+
+html, body, div, span, applet, object, iframe, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Slab', serif;
+}
+
+footer{
+  background-color: $p;
+  color:white;
+  padding: 15px 5vw;
+  margin:0 auto;
+  page-break-before: always;
+}
+
+h1{
+  font-family: collegiateHeavy;
+  font-size: 50px;
+  text-align: center;
+  color:$p;
+}
+h2{
+  font-weight: bold;
+  border-bottom: 3px solid $p2;
+  padding-left:10px;
+}
+h3{
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color:$p2;
+}
+h4{
+  margin-bottom: 0;
+}
+
+@font-face{
+  font-family: collegiateHeavy;
+  src:url('/public/fonts/collegiateHeavyOutlineMedium.ttf');
+}
+
+section.page{
+  max-width: 90vw;
+  margin: 0 auto;
+  min-height: 75vh;
+}
+
+div.hf-r, div.hf-l{
+  display: inline-block;
+  width:50%;
+  padding: 0 10px;
+}
+div.hf-r{
+  text-align: left;
+}
+div.hf-l{
+  text-align: right;
+}
