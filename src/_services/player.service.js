@@ -11,7 +11,7 @@ function getPlayers() {
         method: 'GET',
         headers: Object.assign({ 'Content-Type': 'application/json' })
     };
-    return fetch(config.apiUrl + '/public/players.json', requestOptions).then(handleResponse, handleError);
+    return fetch(config.apiUrl + '/players.json', requestOptions).then(handleResponse, handleError);
 }
 
 function draftPlayers(players, squadCount) {
