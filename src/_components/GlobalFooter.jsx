@@ -4,7 +4,7 @@ export class GlobalFooter extends React.Component {
   render() {
     return (
       <footer>
-        <div>Brought to you by Isaac Faubert</div>
+        <div>Brought to you by Isaac</div>
       </footer>
     );
   }

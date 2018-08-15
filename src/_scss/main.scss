@@ -15,6 +15,7 @@ footer{
   padding: 15px 5vw;
   margin:0 auto;
   page-break-before: always;
+  margin-top:30px;
 }
 
 h1{
@@ -27,11 +28,13 @@ h2{
   font-weight: bold;
   border-bottom: 3px solid $p2;
   padding-left:10px;
+  margin-top:120px;
 }
 h3{
   font-weight: bold;
   text-decoration: underline;
   text-decoration-color:$p2;
+  margin-left:30px;
 }
 h4{
   margin-bottom: 0;

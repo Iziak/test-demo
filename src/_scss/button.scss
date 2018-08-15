@@ -12,7 +12,8 @@ button.undraft{
   background-color: $c;
 }
 
-button:hover{
+button:disabled{
+  background-color:grey;
 }
 
 

@@ -12,7 +12,7 @@ export default class SectionA extends Component {
   render() {
     return (
       <div>
-        <h2>Section A</h2>
+        <h2>Section 1</h2>
         <SectionWrapper>
           <div>
             <label htmlFor="first-input">Super Label</label>

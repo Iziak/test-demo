@@ -1,0 +1,36 @@
+{
+  "people":[
+    {
+      "name":"Vivian",
+      "peanutCount":"7"
+    },
+    {
+      "name":"George",
+      "peanutCount":"5"
+    },
+    {
+      "name":"Claudio",
+      "peanutCount":"12"
+    },
+    {
+      "name":"Tabitha",
+      "peanutCount":"18"
+    },
+    {
+      "name":"Penelope",
+      "peanutCount":"2"
+    },
+    {
+      "name":"David",
+      "peanutCount":"0"
+    },
+    {
+      "name":"Tuk",
+      "peanutCount":"11"
+    },
+    {
+      "name":"Chantelle",
+      "peanutCount":"6"
+    }
+  ]
+}

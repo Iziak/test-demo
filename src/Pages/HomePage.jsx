@@ -1,17 +1,21 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 
-import SectionA from './Components/SectionA';
+import Section1 from './Components/Section1';
+import Section2 from './Components/Section2';
+import Section3 from './Components/Section3';
 
 const PageWrapper = styled.div`
-  padding: 5%;
+  padding: 0 5%;
 `
 
 export class HomePage extends Component {
   render() {
     return (
       <PageWrapper>
-        <SectionA />
+        <Section1 />
+        <Section2 onClick={()=>{}} />
+        <Section3 onClick={()=>{}} />
       </PageWrapper>
     );
   }
