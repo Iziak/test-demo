@@ -59,3 +59,10 @@ div.hf-r{
 div.hf-l{
   text-align: right;
 }
+
+label, input{
+  display: block;
+}
+input{
+  padding: 3px;
+}

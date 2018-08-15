@@ -1,32 +1,18 @@
-import React from 'react';
-import { connect } from 'react-redux';
-import { playerActions } from '../_actions';
-import { WaitList, DraftControl, Squads } from '../_components';
+import React, { Component } from 'react';
+import styled from 'styled-components';
 
-class HomePage extends React.Component {
-  componentDidMount() {
-    this.props.dispatch(playerActions.getPlayers());
-  }
+import SectionA from './Components/SectionA';
+
+const PageWrapper = styled.div`
+  padding: 5%;
+`
+
+export class HomePage extends Component {
   render() {
     return (
-      <section className="page">
-        <DraftControl></DraftControl>
-        <h2>Waitlist</h2>
-        <WaitList players={this.props.waitlist}></WaitList>
-        <h2>Squads</h2>
-        <Squads squads={this.props.squads}></Squads>
-      </section>
+      <PageWrapper>
+        <SectionA />
+      </PageWrapper>
     );
   }
 }
-
-function mapStateToProps(state) {
-  const { playerList } = state;
-  return {
-    waitlist: playerList.waitlist,
-    squads: playerList.squads
-  };
-}
-
-const connectedHomePage = connect(mapStateToProps)(HomePage);
-export { connectedHomePage as HomePage };
